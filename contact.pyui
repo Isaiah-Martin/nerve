@@ -1,0 +1,154 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {370, 500}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{0, 0}, {430, 33}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "name" : "title",
+          "text_color" : "RGBA(0.172549,0.756863,0.341176,1.000000)",
+          "frame" : "{{45, 104}, {150, 32}}",
+          "tint_color" : "RGBA(0.172549,0.756863,0.341176,1.000000)",
+          "uuid" : "69ECB27C-7EE5-47F1-8AE9-08F582C5F5F4",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Contact Me",
+          "background_color" : "RGBA(0,0,0,1.000000)",
+          "font_size" : 24,
+          "font_name" : "Chalkduster"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{62, 102}, {290, 33}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "uuid" : "69633624-7A97-4730-A21D-23B120F6A548",
+          "corner_radius" : 4,
+          "frame" : "{{85, 234}, {200, 32}}",
+          "border_width" : 1,
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "placeholder" : "I dont like here, here, and here",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "name" : "msg",
+          "font_size" : 17
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{62, 62}, {150, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{110, 234}, {150, 32}}",
+          "uuid" : "DA027A47-C376-4C0A-BBB7-CECB065C7FBA",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Message",
+          "name" : "msgtitle",
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{62, 174}, {208, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "name" : "usertitle",
+          "frame" : "{{110, 234}, {150, 32}}",
+          "class" : "Label",
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "text" : "Email or Phone Number",
+          "alignment" : "left",
+          "uuid" : "95FAADED-3DC8-41D1-A048-03FE52A0E45A",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{62, 214}, {290, 32}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "uuid" : "4C2AA61B-66CE-49D3-A399-2A19CBACB44A",
+          "corner_radius" : 4,
+          "frame" : "{{85, 234}, {200, 32}}",
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "border_width" : 1,
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "placeholder" : "Keggy - kegs@dartmouth.edu",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "name" : "user",
+          "font_size" : 17
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{141, 284}, {110, 50}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "submit_contact",
+          "frame" : "{{145, 234}, {80, 32}}",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "title" : "Improve Me!",
+          "class" : "Button",
+          "background_color" : "RGBA(0,0,0,1.000000)",
+          "uuid" : "47D80C57-221B-49ED-A9AD-4D5737A91B63",
+          "border_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "font_size" : 15,
+          "name" : "contactBtn"
+        }
+      },
+      {
+        "selected" : true,
+        "frame" : "{{51, 372}, {320, 200}}",
+        "class" : "ImageView",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "frame" : "{{135, 200}, {100, 100}}",
+          "class" : "ImageView",
+          "name" : "contact_image",
+          "uuid" : "0A138CCC-73B6-496A-AC21-75DD12A70921",
+          "image_name": "me.jpg"
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]

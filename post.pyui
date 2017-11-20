@@ -1,0 +1,152 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {370, 500}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{150, 300}, {110, 50}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "uuid" : "6859A24B-8002-49C1-B167-E318FEE8B766",
+          "corner_radius" : 10,
+          "background_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "frame" : "{{80, 104}, {80, 32}}",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "border_width" : 2,
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "custom_attributes" : "",
+          "title" : "Release",
+          "action" : "submit_post",
+          "class" : "Button",
+          "name" : "post_btn",
+          "font_size" : 17
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{130, 30}, {139, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "Chalkduster",
+          "frame" : "{{110, 234}, {150, 32}}",
+          "uuid" : "E7E96134-4A6F-4185-8153-D34C9412481D",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Let it Out",
+          "font_size" : 24,
+          "name" : "title",
+          "text_color" : "RGBA(0.172549,0.756863,0.341176,1.000000)",
+        "background_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{67, 62}, {295, 31}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "ChalkboardSE-Light",
+          "frame" : "{{110, 234}, {150, 32}}",
+          "uuid" : "2AE05129-F02C-4EFC-A6B1-864BD0C80D98",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Anonymously share an insecurity",
+          "name" : "subtitle",
+          "font_size" : 17
+        }
+      },
+      {
+        "selected" : true,
+        "frame" : "{{52, 130}, {320, 35}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "uuid" : "B0938A54-9E85-4848-9978-5D81869C9EAD",
+          "corner_radius" : 6,
+          "frame" : "{{85, 234}, {200, 32}}",
+          "border_width" : 1,
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "placeholder" : "I dont think im smart enough to be here.",
+          "font_name" : "ChalkboardSE-Light",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "name" : "user_post",
+          "font_size" : 14
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{27, 220}, {320, 30}}",
+        "class" : "SegmentedControl",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "LR",
+          "segments" : "Male|Female|Nonconforming",
+          "frame" : "{{125, 236}, {120, 29}}",
+          "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "uuid" : "EDC67DF2-C1B7-4EEC-8FEF-5BEEE2638258",
+          "class" : "SegmentedControl",
+          "name" : "user_gender"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{27, 260}, {320, 30}}",
+        "class" : "SegmentedControl",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "LR",
+          "segments" : "N\/A|Veteran|FYSEP|Athlete",
+          "frame" : "{{125, 236}, {120, 29}}",
+          "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "class" : "SegmentedControl",
+          "uuid" : "44EE8908-9EAC-462B-83D5-1D8D1E744F51",
+          "name" : "user_affiliation"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{27, 180}, {320, 29}}",
+        "class" : "SegmentedControl",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "LR",
+          "segments" : "'21 | '20 | '19 | '18",
+          "frame" : "{{125, 236}, {120, 29}}",
+          "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "uuid" : "7EC960DF-664B-4CC1-90C4-F19EDC6E2D2A",
+          "class" : "SegmentedControl",
+          "name" : "user_class"
+        }
+      }
+    ],
+    "attributes" : {
+      "flex" : "",
+      "enabled" : true,
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "name" : "",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)"
+    }
+  }
+]

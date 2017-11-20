@@ -1,0 +1,123 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {370, 500}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{88, 119}, {224, 99}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "uuid" : "65AB63F9-18E9-4CA1-8D2E-196982B27831",
+          "image_name" : "iob:ios7_people_256",
+          "flex" : "",
+          "corner_radius" : 0,
+          "background_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "frame" : "{{120, 144}, {80, 32}}",
+          "border_color" : "RGBA(0.028090,0.028090,0.028090,1.000000)",
+          "border_width" : 2,
+          "tint_color" : "RGBA(0.172549,0.756863,0.341176,1.000000)",
+          "title" : "",
+          "action" : "view_community",
+          "font_bold" : false,
+          "class" : "Button",
+          "name" : "feed",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{88, 267}, {224, 99}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "uuid" : "45979F6A-6972-45E0-B130-7ACD07115DB4",
+          "font_size" : 15,
+          "corner_radius" : 0,
+          "background_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "frame" : "{{120, 144}, {80, 32}}",
+          "tint_color" : "RGBA(0.175454,0.760300,0.342553,1.000000)",
+          "border_width" : 2,
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "title" : "Share an Insecurity",
+          "action" : "send_personal",
+          "class" : "Button",
+          "image_name" : "iob:ios7_person_256",
+          "name" : "post"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{81, 25}, {224, 54}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "name" : "title",
+          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "frame" : "{{85, 144}, {150, 32}}",
+          "border_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "uuid" : "6F9F60B5-FC3A-4B24-B57C-FB6A873542B9",
+          "text" : "Nerve",
+          "class" : "Label",
+          "alignment" : "center",
+          "font_size" : 36,
+          "font_name" : "Chalkduster"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{88, 405}, {224, 99}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "contactme",
+          "frame" : "{{145, 234}, {80, 32}}",
+          "tint_color" : "RGBA(0.172549,0.756863,0.341176,1.000000)",
+          "title" : "",
+          "uuid" : "4CBB3131-D405-49C7-8F7C-921677C6807F",
+          "class" : "Button",
+          "background_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "font_size" : 15,
+          "name" : "contact_btn"
+        }
+      },
+      {
+        "selected" : true,
+        "frame" : "{{147, 405}, {99, 99}}",
+        "class" : "ImageView",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "class" : "ImageView",
+          "frame" : "{{135, 200}, {100, 100}}",
+          "alpha" : 1,
+          "name" : "image",
+          "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "uuid" : "EF2BD296-3BA5-409F-A431-6E7BEA1FCC06",
+          "image_name": "coder.JPG"
+        }
+      }
+    ],
+    "attributes" : {
+      "flex" : "",
+      "custom_class" : "",
+      "enabled" : true,
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "name" : ""
+    }
+  }
+]
