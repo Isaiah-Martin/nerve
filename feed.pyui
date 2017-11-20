@@ -1,0 +1,68 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {370, 500}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : true,
+        "frame" : "{{0, 31}, {368, 401}}",
+        "class" : "TableView",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "uuid" : "3C00F926-F7EA-40FD-B1B3-B6F83FE85DF1",
+          "flex" : "WH",
+          "corner_radius" : 0,
+          "background_color" : "RGBA(1.0, 1.0, 1.0, 1.0)",
+          "frame" : "{{85, 150}, {200, 200}}",
+          "data_source_items" : "",
+          "data_source_number_of_lines" : 3,
+          "border_width" : 0,
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "data_source_move_enabled" : true,
+          "data_source_delete_enabled" : false,
+          "data_source_font_size" : 14,
+          "row_height" : 42,
+          "data_source_accessory_action" : "selection",
+          "class" : "TableView",
+          "name" : "posttable",
+          "data_source_action" : "selection"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{0, 0}, {430, 33}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "uuid" : "5F27875E-A01C-40C4-A643-65A5FF9EADA4",
+          "corner_radius" : 0,
+          "background_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "frame" : "{{110, 234}, {150, 32}}",
+          "border_color" : "RGBA(0.181871,0.797753,0.359608,1.000000)",
+          "border_width" : 0,
+          "alignment" : "center",
+          "text" : "Our Insecurities",
+          "text_color" : "RGBA(0.172549,0.756863,0.341176,1.000000)",
+          "font_name" : "Chalkduster",
+          "class" : "Label",
+          "name" : "title",
+          "font_size" : 24
+        }
+      }
+    ],
+    "attributes" : {
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "name" : "",
+      "flex" : ""
+    }
+  }
+]
