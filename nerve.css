@@ -1,8 +1,59 @@
+.theme{
+	background: url(https://static.pexels.com/photos/669319/pexels-photo-669319.jpeg);
+	background-size: cover;
+}
+body{
+	color:white;
+	position: relative;
+}
+.main {
+    flex: 1 1 0; /* flex: 1, which you had before, is equivalent but doesn't work */
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
 .Header{
 	/* background-color: black; */
 }
 
+.post{
+	width: 80%;
+	border-radius: .25rem;
+	padding: .37rem
+}
 #title{
 	text-align:center;
 	color:white;
+}
+
+#share,#view,#feedback{
+	text-align: center;
+}
+
+#feed{
+	height: 60%;
+}
+.class{
+	background-color: white;
+	color: black;
+	width: 100%;
+	text-align: center;
+}
+.class:not([disabled]):not(.disabled).active, .btn:not([disabled]):not(.disabled):active{
+	background-color: grey;
+	color:white;
+}
+
+.release{
+	background-color: white;
+	color: black;
+}
+
+.release:not([disabled]):not(.disabled).active{
+	background-color: grey;
+	color:white;
+}
+.feed{
+	color:black;
 }

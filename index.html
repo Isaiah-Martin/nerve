@@ -1,4 +1,4 @@
-<!-- Isaiah Martin Dartmouth '21 -->'
+<!-- Isaiah Martin Dartmouth '21 -->
 <!doctype html>
 <html lang="en">
   <head>
@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link rel="stylesheet" href="nerve.css">
   </head>
-  <body style="background-color: black;">
+  <body class="container-fluid theme">
     <!-- Header -->
     <div class="Header">
       <h1 class="display-2" id="title">Nerve</h1>
@@ -23,5 +23,102 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 
     <!-- Content -->
+    <div class="content row">
+      <br>
+      <div class="col-sm" id="share">
+        <h1>Release</h1>
+        <p>Anonymously Share an insecurity</p>
+        <br>
+        <!-- form -->
+        <form action="/index.php" method="POST" class="form-horizontal" id="user_post">
+          <!-- post -->
+          <textarea class="post" name="user_post" rows="2" placeholder="I don't think I'm smart enough to be here" form="contact" required></textarea>
+          <!-- <input type="text" name="post" class="post" placeholder="I don't think I'm smart enough to be here" required/> -->
+          <br><br>
+          <!-- class -->
+          <div class="btn-group" data-toggle="buttons">
+            <label class="btn active class">
+              <input type="radio" name="class" value="freshman" autocomplete="off" checked> Freshman
+            </label>
+            <label class="btn class">
+              <input type="radio" name="class" value="sophomore" autocomplete="off"> Sophomore
+            </label>
+            <label class="btn class">
+              <input type="radio" name="class" value="junior" autocomplete="off"> Junior
+            </label>
+            <label class="btn class">
+              <input type="radio" name="class" value="senior" autocomplete="off"> Senior
+            </label>
+          </div>
+          <br><br>
+          <!-- grade -->
+          <div class="btn-group" data-toggle="buttons">
+            <label class="btn active class">
+              <input type="radio" name="gender" value="female" autocomplete="off" checked> Female
+            </label>
+            <label class="btn class">
+              <input type="radio" name="gender" value="male" autocomplete="off"> Male
+            </label>
+            <label class="btn class">
+              <input type="radio" name="gender" value="nonconforming" autocomplete="off"> Nonconforming
+            </label>
+          </div>
+          <br><br>
+          <!-- affiliation -->
+          <div class="btn-group" data-toggle="buttons">
+            <label class="btn class">
+              <input type="checkbox" name="special" value="firstgen" autocomplete="off"> First Gen
+            </label>
+            <label class="btn class">
+              <input type="checkbox" name="special" value="athlete" autocomplete="off"> Athlete
+            </label>
+            <label class="btn class">
+              <input type="checkbox" name="special" value="veteran" autocomplete="off"> Veteran
+            </label>
+          </div>
+          <br><br>
+          <button type="submit" class="btn btn-lg release">Release</button>
+        </form>
+      </div>
+      <!-- Feed -->
+      <div class="col-sm" id="view">
+        <h1>Connect</h1>
+        <p>View the insecurities of others</p>
+        <br>
+        <div class="list-group main" id="feed">
+          <div data-spy="scroll" data-target="#feed" data-offset="0" class="scrollspy-example">
+          <a href="#" class="list-group-item list-group-item-action">Cras justo odio</a>
+          <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+          <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+          <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
+          <a href="#" class="list-group-item list-group-item-action">Vestibulum at eros</a>
+          <a href="#" class="list-group-item list-group-item-action">Cras justo odio</a>
+          <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+          <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+          <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
+          <a href="#" class="list-group-item list-group-item-action">Vestibulum at eros</a>
+        </div>
+        </div>
+      </div>
+      <!-- Feedback -->
+      <div class="col-sm" id="feedback">
+        <h1>Feedback</h1>
+        <p>How could this be better?</p>
+        <br>
+        <form action="/index.php" method="POST" class="form-horizontal" id="contact">
+          <!-- post -->
+          <textarea class="post" name="feedback" rows="3" form="contact" placeholder="What worked? What didn't?" required></textarea><br><br>
+          <button type="submit" class="btn btn-lg release">Send</button>
+        </form>
+      </div>
+
+  <div class="col-sm-12 footer" style="text-align:center;">
+    <h1 class="lead" style="text-align:center;"><a class="btn btn-success" role="button" onclick="window.open('https://www.isaiahmartin.x10host.com/','popUpWindow','height=600,width=800,left=10,top=10,,scrollbars=yes,menubar=yes'); return false;">Isaiah Martin '21</h1></a>
+  </div>
+
+    </div>
   </body>
+  <script type="text/javascript">
+    $('body').scrollspy({ target: '#feed' })
+  </script>
 </html>
