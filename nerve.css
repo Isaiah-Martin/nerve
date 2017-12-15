@@ -1,4 +1,7 @@
 .theme{
+	background-color: black;
+}
+.content{
 	background: url(https://static.pexels.com/photos/669319/pexels-photo-669319.jpeg);
 	background-size: cover;
 }
@@ -14,9 +17,12 @@ body{
 }
 
 .Header{
-	/* background-color: black; */
+	 background-color: black; 
 }
 
+.overlay{
+	background-color: black;
+}
 .post{
 	width: 80%;
 	border-radius: .25rem;
@@ -30,10 +36,16 @@ body{
 #share,#view,#feedback{
 	text-align: center;
 }
-
+#share{
+	background-color: rgba(22,22,22,0.7);
+}
+#view{
+	background-color: rgba(182,182,182,0.7);
+}
 #feed{
 	height: 60%;
 }
+
 .class{
 	background-color: white;
 	color: black;
@@ -41,7 +53,7 @@ body{
 	text-align: center;
 }
 .class:not([disabled]):not(.disabled).active, .btn:not([disabled]):not(.disabled):active{
-	background-color: grey;
+	background-color: black;
 	color:white;
 }
 
@@ -51,7 +63,7 @@ body{
 }
 
 .release:not([disabled]):not(.disabled).active{
-	background-color: grey;
+	background-color: black;
 	color:white;
 }
 .feed{

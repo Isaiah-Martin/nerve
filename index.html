@@ -25,9 +25,9 @@
     <!-- Content -->
     <div class="content row">
       <br>
-      <div class="col-sm" id="share">
+      <div class="offset-sm-2 col-sm-4" id="share">
         <h1>Release</h1>
-        <p>Anonymously Share an insecurity</p>
+        <p>Anonymously share an insecurity</p>
         <br>
         <!-- form -->
         <form action="/index.php" method="POST" class="form-horizontal" id="user_post">
@@ -49,8 +49,7 @@
             <label class="btn class">
               <input type="radio" name="class" value="senior" autocomplete="off"> Senior
             </label>
-          </div>
-          <br><br>
+          </div><br><br>
           <!-- grade -->
           <div class="btn-group" data-toggle="buttons">
             <label class="btn active class">
@@ -62,8 +61,7 @@
             <label class="btn class">
               <input type="radio" name="gender" value="nonconforming" autocomplete="off"> Nonconforming
             </label>
-          </div>
-          <br><br>
+          </div><br><br>
           <!-- affiliation -->
           <div class="btn-group" data-toggle="buttons">
             <label class="btn class">
@@ -81,12 +79,12 @@
         </form>
       </div>
       <!-- Feed -->
-      <div class="col-sm" id="view">
-        <h1>Connect</h1>
+      <div class="col-sm-4" id="view">
+        <h1>Reflect</h1>
         <p>View the insecurities of others</p>
         <br>
         <div class="list-group main" id="feed">
-          <div data-spy="scroll" data-target="#feed" data-offset="0" class="scrollspy-example">
+          <div data-spy="scroll" data-target="#feed" data-offset="0">
           <a href="#" class="list-group-item list-group-item-action">Cras justo odio</a>
           <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
           <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
@@ -100,23 +98,26 @@
         </div>
         </div>
       </div>
-      <!-- Feedback -->
+      <!-- Feedback
       <div class="col-sm" id="feedback">
-        <h1>Feedback</h1>
+        <h1>Critique</h1>
         <p>How could this be better?</p>
         <br>
         <form action="/index.php" method="POST" class="form-horizontal" id="contact">
-          <!-- post -->
+          <- post 
           <textarea class="post" name="feedback" rows="3" form="contact" placeholder="What worked? What didn't?" required></textarea><br><br>
           <button type="submit" class="btn btn-lg release">Send</button>
         </form>
       </div>
-
-  <div class="col-sm-12 footer" style="text-align:center;">
-    <h1 class="lead" style="text-align:center;"><a class="btn btn-success" role="button" onclick="window.open('https://www.isaiahmartin.x10host.com/','popUpWindow','height=600,width=800,left=10,top=10,,scrollbars=yes,menubar=yes'); return false;">Isaiah Martin '21</h1></a>
-  </div>
+    -->
+      <div class="col-sm-12 footer" style="text-align:center;">
+        <br><br>
+        <h1 class="lead" style="text-align:center;"><a class="btn btn-success" role="button" onclick="window.open('https://www.isaiahmartin.x10host.com/','popUpWindow','height=600,width=800,left=10,top=10,,scrollbars=yes,menubar=yes'); return false;">Isaiah Martin '21</h1></a>
+      </div>
 
     </div>
+  </div>
+</div>
   </body>
   <script type="text/javascript">
     $('body').scrollspy({ target: '#feed' })
